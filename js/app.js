@@ -22,6 +22,7 @@
             }));
         }
     }), 0);
+    // Set of number task start
     document.getElementById("uploadForm").addEventListener("submit", (function(event) {
         event.preventDefault();
         const fileInput = document.getElementById("fileInput");
@@ -95,6 +96,7 @@
         localStorage.clear();
         location.reload();
     }));
+    // Set of number task end
     window["FLS"] = true;
     isWebp();
 })();
