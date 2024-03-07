@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240307112213">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main">
+				<div class="main__container">
+					<h1 class="main__title">Become A Developer 2024</h1>
+					<div class="main__task ">
+
+						<form class="main__form" id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+							<label class="main__label" for="fileInput">Надішліть файл з числами</label><br>
+							<input class="main__input" type="file" id="fileInput" name="fileInput"><br>
+							<button class="main__submit" type="submit">Завантажити</button>
+						</form>
+					</div>
+					<div class="main__result">
+						<h2 class="main__result-title">Результат</h2>
+						<ul class="main__list">
+							<li class="main__item"><span> Максимальне число в файлі =</span>
+								<div class="main__result-1"></div>
+							</li>
+							<li class="main__item"><span>Мінімальне число в файлі =</span>
+								<div class="main__result-2"></div>
+							</li>
+							<li class="main__item"><span>Медіана =</span>
+								<div class="main__result-3"></div>
+							</li>
+							<li class="main__item"><span>Середнє арифметичне значення =</span>
+								<div class="main__result-4"></div>
+							</li>
+						</ul>
+						<button class="main__reset" type="">Скинути</button>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240307112213"></script>
+</body>
+
+</html>
